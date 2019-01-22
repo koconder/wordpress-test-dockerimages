@@ -2,7 +2,7 @@ version: '3'
 services:
   phpfpm:
     container_name: phpfpm
-    image: nanoninja/php-fpm
+    image: koconder/wordpress-test-dockerimages
     entrypoint: php index.php
     volumes:
       - /path/to/your/app:/var/www/html

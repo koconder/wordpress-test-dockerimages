@@ -1,15 +1,15 @@
 # PHP-FPM Docker Image
 
-Docker container to install and run [PHP-FPM](https://php-fpm.org/).
+Docker container to install and run [PHP-FPM](https://php-fpm.org/). Designed for [Wordpress Testing Suite](https://github.com/koconder/wordpress-test-template) and adapted by inital works from [nanoninja/php-fpm](https://github.com/nanoninja/php-fpm).
 
-[![Build Status](https://travis-ci.org/nanoninja/php-fpm.svg?branch=master)](https://travis-ci.org/nanoninja/php-fpm) [![Automated Build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/nanoninja/php-fpm/builds/)
+[![Build Status](https://travis-ci.org/koconder/wordpress-test-dockerimages.svg?branch=master)](https://travis-ci.org/nanoninja/php-fpm) [![Automated Build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/koconder/wordpress-test-dockerimages/builds/)
 
 ## Supported branches and respective Dockerfile links
 
-- 7.2.13 [Dockerfile](https://github.com/nanoninja/php-fpm/blob/7.2.13/Dockerfile)
-- 7.2.2 [Dockerfile](https://github.com/nanoninja/php-fpm/blob/7.2/Dockerfile)
-- 7.1.14 [Dockerfile](https://github.com/nanoninja/php-fpm/blob/7.1/Dockerfile)
-- 5.6.32 [Dockerfile](https://github.com/nanoninja/php-fpm/blob/5.6/Dockerfile)
+- 7.2.13 [Dockerfile](https://github.com/koconder/wordpress-test-dockerimages/blob/7.2.13/Dockerfile)
+- 7.2.2 [Dockerfile](https://github.com/koconder/wordpress-test-dockerimages/blob/7.2/Dockerfile)
+- 7.1.14 [Dockerfile](https://github.com/koconder/wordpress-test-dockerimages/blob/7.1/Dockerfile)
+- 5.6.32 [Dockerfile](https://github.com/koconder/wordpress-test-dockerimages/blob/5.6/Dockerfile)
 
 ## What is PHP-FPM
 

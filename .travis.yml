@@ -1,6 +1,6 @@
 sudo: required
 services: docker
 script:
-  - docker build -t nanoninja/php-fpm .
+  - docker build -t koconder/wordpress-test-dockerimages .
 after_script:
-- docker images
+  - docker images

@@ -1,7 +1,5 @@
 FROM php:7.2.13-fpm
 
-LABEL maintainer="Vincent Letourneau <vincent@nanoninja.com>"
-
 RUN apt-get update && apt-get upgrade -y \
     && apt-get install -y \
         g++ \
@@ -28,6 +26,9 @@ RUN apt-get update && apt-get upgrade -y \
         wget \
         unzip \
         zlib1g-dev \
+        curl \
+        subversion \
+        bash \
     && docker-php-ext-configure gd \
         --with-freetype-dir=/usr/include/ \
         --with-jpeg-dir=/usr/include/ \
@@ -72,3 +73,4 @@ RUN apt-get update && apt-get upgrade -y \
     && docker-php-source delete \
     && apt-get clean -y && apt-get autoclean -y && apt-get autoremove -y \
     && rm -rf /var/lib/apt/lists/*
+SHELL ["/bin/bash", "-c"]
