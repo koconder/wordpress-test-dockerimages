@@ -2,7 +2,7 @@
 
 Docker container to install and run [PHP-FPM](https://php-fpm.org/). Designed for [Wordpress Testing Suite](https://github.com/koconder/wordpress-test-template) and adapted by inital works from [nanoninja/php-fpm](https://github.com/nanoninja/php-fpm).
 
-[![Build Status](https://travis-ci.org/koconder/wordpress-test-dockerimages.svg?branch=master)](https://travis-ci.org/nanoninja/php-fpm) [![Automated Build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/koconder/wordpress-test-dockerimages/builds/)
+[![Build Status](https://travis-ci.org/koconder/wordpress-test-docker/images.svg?branch=master)](https://travis-ci.org/koconder/wordpress-test-dockerimages) [![Automated Build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/koconder/wordpress-test-dockerimages/builds/)
 
 ## Supported branches and respective Dockerfile links
 
