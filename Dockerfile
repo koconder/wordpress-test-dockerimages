@@ -1,4 +1,4 @@
-FROM php:7.2.13-fpm
+FROM php:8.0.3-fpm
 
 RUN apt-get update && apt-get upgrade -y \
     && apt-get install -y \
